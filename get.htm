@@ -1,0 +1,19 @@
+<DOCTYPE html>
+<html>
+    <body>
+        <form  action = "/process_get" method = "GET">
+            First Name: <input id ="fn" type = "text" name = "first_name" value="Mickey"> <br>
+            Last Name: <input id="ln" type = "text" name = "last_name" value="Mouse"> <br>
+            <input type = "submit" value = "Submit name">
+        </form>
+
+        <button id="b" onclick = "myFunction()">Submit Default name</button>
+
+        <p id="para">Hello</p>
+        <script>
+            function myFunction(){
+                document.getElementById("fn").value="Rohan";
+            }
+        </script>
+    </body>
+</html>
